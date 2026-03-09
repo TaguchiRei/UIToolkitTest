@@ -1,8 +1,13 @@
 <ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
-    <ui:Template name="Card" src="project://database/Assets/UI%20Toolkit/Card.uxml?fileID=9197481963319205126&amp;guid=b81f977ab053b404facfc7a8c2564624&amp;type=3#Card"/>
-    <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-direction: row; justify-content: space-evenly; align-self: stretch; align-items: center;">
-        <ui:Instance template="Card"/>
-        <ui:Instance template="Card"/>
-        <ui:Instance template="Card"/>
+    <ui:Template name="TestCard" src="project://database/Assets/UI%20Toolkit/TestCard.uxml?fileID=9197481963319205126&amp;guid=8b5078858c46b0845a0961ce00ab8c80&amp;type=3#TestCard"/>
+    <ui:VisualElement name="Root" style="flex-grow: 1;">
+        <ui:VisualElement name="HandZone" style="flex-grow: 1; flex-direction: row; justify-content: space-evenly; align-self: stretch; align-items: center;">
+            <UIToolkitExamplesA.Card/>
+            <UIToolkitExamplesA.Card/>
+            <UIToolkitExamplesA.Card/>
+            <ui:Instance template="TestCard" name="TestCard"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="UseZone" style="flex-grow: 1;"/>
+        <ui:VisualElement name="MouseFollower" style="flex-grow: 1; position: absolute; top: 0; left: 0; right: 0; bottom: 0;"/>
     </ui:VisualElement>
 </ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="Root" style="background-color: rgb(91, 91, 91); width: 350px; height: 450px;">
+        <ui:VisualElement style="background-image: url(&quot;project://database/Assets/Art/Texture/castle.png?fileID=2800000&amp;guid=7922d8053db2a0647918d21472139a10&amp;type=3#castle&quot;); width: 350px; height: 350px;"/>
+    </ui:VisualElement>
+</ui:UXML>
